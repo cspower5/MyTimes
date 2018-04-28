@@ -1,0 +1,26 @@
+.Header{
+  font-family: Verdana sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+}
+.Nav li{
+  list-style-type: none;
+  display: inline-block;
+}
+.Logo{
+  border: 1px solid black;
+}
+.Title{
+  color: Aquamarine;
+  border: 1px solid black;
+}
+.Main{
+  display:flex;
+}
+.Container{
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
