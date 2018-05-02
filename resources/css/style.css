@@ -38,14 +38,44 @@
 }
 .Column .Large{
   width: 630px;
+  height: 3000px;
   border: 3px solid black;
-  background-image: url("../images/img-story-main.png");
 }
 .Column .Medium{
   width: 300px;
+  height: 1000px;
   border: 3px solid black;
 }
 .Column .Small{
   width: 240px;
+  height: 1000px;
   border: 3px solid black;
+}
+.Large .Image1{
+  height: 300px;
+  background-image: url("../images/img-story-main.png");
+  display: flex;
+}
+.Large .Image1 p{
+}
+.Large .Image2{
+  height: 300px;
+  background-image: url("../images/img-story-1.png");
+  display: flex;
+  padding-top: 300px;
+}
+.Large .Image3{
+  height: 300px;
+  background-image: url("../images/img-story-2.png");
+  display: flex;
+}
+.Medium .Image{
+  height: 300px;
+  background-image: url("../images/img-story-3.png");
+  display: flex;
+}
+.Small .Image{
+  height: 300px;
+  background-image: url("../images/img-news-bite.png");
+  display: flex;
 }
